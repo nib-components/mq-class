@@ -1,0 +1,13 @@
+{
+  "name": "mq-class",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "dependencies": {
+    "component/throttle": "*"
+  },
+  "development": {
+    "component/assert": "*"
+  }
+}
