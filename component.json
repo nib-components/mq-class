@@ -5,7 +5,7 @@
     "index.js"
   ],
   "dependencies": {
-    "component/throttle": "*"
+    "component/throttle": "0.0.2"
   },
   "development": {
     "component/assert": "*"
