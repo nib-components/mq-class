@@ -17,7 +17,7 @@ function parseElements(els, mqAttr) {
   var mqClasses = [];
   Array.prototype.forEach.call(els, function(el) {
     var attr = el.getAttribute(mqAttr);
-    attr.split(',').forEach(function(str){
+    attr.split(';').forEach(function(str){
       str = str.split('>');
       var classes = str[0].trim().split(' ');
       var query = str[1].trim();
