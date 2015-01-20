@@ -28,7 +28,7 @@ You can do multiple classes at one:
 And you can do multiple queries:
 
 ```
-<div data-mq-class="wide > (min-width: 900px), narrow > (max-width: 899px)">
+<div data-mq-class="wide > (min-width: 900px); narrow > (max-width: 899px)">
 ```
 
 And use complex queries:
