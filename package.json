@@ -1,0 +1,15 @@
+{
+  "name": "@nib-components/mq-class",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nib-components/mq-class.git"
+  },
+  "dependencies": {
+    "throttleit": "0.0.2"
+  },
+  "browser": {
+    "throttle": "throttleit"
+  }
+}
